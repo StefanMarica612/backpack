@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="DELETE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:33:18</sys_created_on>
+        <sys_id>e8f0e6960760301010f9f1e08c1ed01e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_552165_backpack.editor</sys_name>
+        <sys_package display_value="backpack" source="x_552165_backpack">df8cff8007a4301010f9f1e08c1ed02d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="backpack">df8cff8007a4301010f9f1e08c1ed02d</sys_scope>
+        <sys_ui_action display_value="">3ae0261a0760301010f9f1e08c1ed02e</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_e8f0e6960760301010f9f1e08c1ed01e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:33:18</sys_updated_on>
+        <sys_user_role display_value="x_552165_backpack.editor" name="x_552165_backpack.editor">9fccf7c007a4301010f9f1e08c1ed007</sys_user_role>
+    </sys_ui_action_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="backpack">df8cff8007a4301010f9f1e08c1ed02d</application>
+        <file_path/>
+        <instance_id>1fbb8f02db879704439ef70fbf96192a</instance_id>
+        <instance_name>dev63572</instance_name>
+        <name>sys_ui_action_role_e8f0e6960760301010f9f1e08c1ed01e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role"><sys_ui_action_role action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-07 07:33:18</sys_created_on><sys_id>e8f0e6960760301010f9f1e08c1ed01e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_552165_backpack.editor</sys_name><sys_package display_value="backpack" source="x_552165_backpack">df8cff8007a4301010f9f1e08c1ed02d</sys_package><sys_policy/><sys_scope display_value="backpack">df8cff8007a4301010f9f1e08c1ed02d</sys_scope><sys_ui_action display_value="">3ae0261a0760301010f9f1e08c1ed02e</sys_ui_action><sys_update_name>sys_ui_action_role_e8f0e6960760301010f9f1e08c1ed01e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-07 07:33:18</sys_updated_on><sys_user_role display_value="x_552165_backpack.editor" name="x_552165_backpack.editor">9fccf7c007a4301010f9f1e08c1ed007</sys_user_role></sys_ui_action_role></record_update>]]></payload>
+        <payload_hash>995538387</payload_hash>
+        <record_name>.x_552165_backpack.editor</record_name>
+        <reverted_from/>
+        <source>d38cff8007a4301010f9f1e08c1ed030</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:33:19</sys_created_on>
+        <sys_id>bb01a21a0760301010f9f1e08c1ed047</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179e563e2570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:33:19</sys_updated_on>
+        <type>UI Action Role</type>
+        <update_guid>f301a21af6603010e8eca102b4383b47</update_guid>
+        <update_guid_history>f301a21af6603010e8eca102b4383b47:995538387</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:34:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action_role">sys_ui_action_role</sys_db_object>
+        <sys_id>42c3915b2c2640b4bc8a20bf8fa23f79</sys_id>
+        <sys_metadata>e8f0e6960760301010f9f1e08c1ed01e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_552165_backpack.editor</sys_name>
+        <sys_package display_value="backpack" source="x_552165_backpack">df8cff8007a4301010f9f1e08c1ed02d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="backpack">df8cff8007a4301010f9f1e08c1ed02d</sys_scope>
+        <sys_scope_delete display_value="">164d77b63f25423087f35cd5996b4b64</sys_scope_delete>
+        <sys_update_name>sys_ui_action_role_e8f0e6960760301010f9f1e08c1ed01e</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_role_e8f0e6960760301010f9f1e08c1ed01e">bb01a21a0760301010f9f1e08c1ed047</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:34:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

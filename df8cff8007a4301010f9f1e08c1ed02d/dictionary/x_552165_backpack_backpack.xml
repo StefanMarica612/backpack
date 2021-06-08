@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="backpack" max_length="40" name="x_552165_backpack_backpack" sizeclass="18" type="collection">
+        <element label="Car" max_length="40" name="car" type="boolean"/>
+        <element label="cold weather" max_length="40" name="cold_weather" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="2000" name="description" type="string"/>
+        <element label="hot weather" max_length="40" name="hot_weather" type="boolean"/>
+        <element attributes="encode_utf8=false" label="itemOf" max_length="32" name="itemof" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Tent" max_length="40" name="tent" type="boolean"/>
+        <element label="mandatory" max_length="40" name="u_mandatory_1" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Requested for" max_length="32" name="u_req_for" reference="sys_user" reference_qual="javascript: new x_552165_backpack.getBackpackMembers().getMembers()" type="reference" use_reference_qualifier="advanced"/>
+        <index name="index">
+            <element name="itemof"/>
+        </index>
+        <index name="index2">
+            <element name="u_req_for"/>
+        </index>
+    </element>
+</database>
